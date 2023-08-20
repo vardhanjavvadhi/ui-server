@@ -3,7 +3,7 @@ const app =express();
 const mongoose = require("mongoose");
 const cors =require('cors');
 
-const AppRouter =require("../ZOMATO-APP-WITHDB/routes/AppRoutes");
+const AppRouter =require("../routes/AppRoutes");
 
 // enable cors
 app.use(cors());
